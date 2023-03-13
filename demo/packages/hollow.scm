@@ -87,7 +87,7 @@
              (commit version)))
        (file-name (git-file-name name version))
        (sha256
-        (base32 "0lx9dkmjf68q8011df24a2gj4s6fap2cbn268mmpgzzfcb021xk5"))))
+        (base32 "d9mnad0c1y2jpmplbl6v74q4yc4fv9znc4fd9cy2xghrjbkjrxr"))))
     (build-system gnu-build-system)
     (inputs
      (list libx11))
