@@ -1,0 +1,4 @@
+(authorizations
+  (version 0)      ; version for the file format, not your channel
+  (("5CF6 64B4 DA24 B1F2 870D 6FD9 6158 D13B 69BB EA45"
+    (name "Marco"))))
