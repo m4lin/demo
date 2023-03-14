@@ -78,7 +78,7 @@
   
   (package
     (name "hollow")
-    (version "2")
+    (version "1")
     (source
      (origin
        (method git-fetch)
@@ -87,7 +87,7 @@
              (commit version)))
        (file-name (git-file-name name version))
        (sha256
-        (base32 "d9mnad0c1y2jpmplbl6v74q4yc4fv9znc4fd9cy2xghrjbkjrxr"))))
+        (base32 "02i0wrdxn1fnpabpns4sznk3h8zck14gk6zingv02nfpaa5dlw1j"))))
     (build-system gnu-build-system)
     (inputs
      (list libx11))
